@@ -1,0 +1,121 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+html, body, button{
+   font-family: 'Montserrat', sans-serif; 
+}
+h1{
+    font-weight: 200;
+}
+h2, h3{
+     font-weight: 300;
+}
+/*background*/
+.wf_imgContainer{
+    background-image: url("images/van.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    height: 100%;
+}
+.wf_informationContainer{
+    background-color: rgba(53, 53, 53, 0.6);
+    padding: 0;
+    display: table;
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 11;
+}
+
+/*logo*/
+.wf_logoContainer{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.wf_logoContainer #wf_logo{
+    width: 170px;
+    margin: 0 auto;
+}
+/*tag line*/
+.wf_tagline{
+    color: #ffffff;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.wf_tagline h1{
+    margin: 0;
+}
+/*form*/
+.wf_signupForm{
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+}
+.wf_signupForm input{
+    border: none;
+    width: 70%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.wf_signupForm button{
+    background-color: #0bd6b7;
+    color: #ffffff;
+    font-weight: 400;
+    border-style: none;
+    width: 28%;
+    height: 42px;
+}
+.wf_signupForm button:hover{
+    cursor: pointer;
+}
+/*work with us*/
+.wf_workWithUs{
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 2%;
+}
+.wf_workWithUs .wf_workWithUsButtons{
+    display: inline-flex;
+    padding: 1px;
+}
+.wf_workWithUs .wf_buttonOutter{
+    border: 2px solid #0bd6b7;
+    padding: 8px; 
+    width: 165px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wf_workWithUs a{
+    background-color: transparent;
+    color: #0bd6b7;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+.wf_workWithUs .wf_buttonOutter:hover{
+    cursor: pointer;
+    background-color: #0bd6b7;
+}
+.wf_workWithUs .wf_buttonOutter:hover a{
+    color: #ffffff;
+}
+/*copyright*/
+.wf_copyright{
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
