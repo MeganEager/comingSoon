@@ -4,31 +4,44 @@
     <meta charset="UTF-8">
     <title>WrittenFrom</title>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <div class="wf_imgContainer">
         <div class="wf_informationContainer">
+            <div class="wf_innerInformationContainer">
             <div class="wf_logoContainer"><img src="images/wfLogo.png" id="wf_logo" ></div>
-            <div class="wf_tagline"><h1>Travel stories, advice and tips from around the world,</h1><h1>straight into your inbox!</h1></div>
+            <div class="wf_tagline "><h1>Travel stories, advice and tips from around the world,</h1><h1>straight into your inbox!</h1></div>
             <div class="wf_signupForm">
-                <input type="email" placeholder="Your email">
-                <button>SIGN ME UP!</button>
+                <div class="row">
+                    <div class="col-sm-12 col-md-9">
+                        <input type="email" placeholder="Your email">
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <button>SIGN ME UP!</button>
+                    </div>  
+                </div>
+                
             </div>
             <div class="wf_workWithUs">
                 <h2>Want to share your stories?</h2>
-                <div class="wf_workWithUsButtons">
-                    <div class="wf_buttonOutter">
+                <div class="wf_workWithUsButtons row">
+                    <div class="wf_buttonOutter col-sm-12 col-md-6" id="wf_workWithUs_buttonOne">
                         <a href="#">Write For Us</a>
                     </div>
-                    <div class="wf_buttonOutter">
+                    <div class="wf_buttonOutter col-sm-12 col-md-6" id="wf_workWithUs_buttonTwo">
                         <a href="#">Our Manifesto</a>
                     </div>
                 </div>
+            </div>
             </div>
            <div class="wf_copyright"><p>Copyright 2017 WrittenFrom</p></div>
         </div>  

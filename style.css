@@ -29,7 +29,12 @@ h2, h3{
     min-height: 100%;
     left: 0;
     top: 0;
+    margin: 0 auto;
     z-index: 11;
+}
+.wf_innerInformationContainer{
+    position: relative;
+    margin: 0 auto;
 }
 
 /*logo*/
@@ -60,19 +65,27 @@ h2, h3{
     margin: 0 auto;
     text-align: center;
 }
+.wf_signupForm .row .col-sm-12, .wf_signupForm .row .col-md-9, .wf_signupForm .row .col-md-3{
+    padding: 0;
+}
 .wf_signupForm input{
     border: none;
-    width: 70%;
+    width: 100%;
     height: 40px;
     background-color: rgba(255, 255, 255, 0.6);
+}
+.wf_signupForm input::placeholder{
+    color: #ffffff;
+    font-weight: 200;
+    padding-left: 10px;
 }
 .wf_signupForm button{
     background-color: #0bd6b7;
     color: #ffffff;
     font-weight: 400;
     border-style: none;
-    width: 28%;
-    height: 42px;
+    width: 100%;
+    height: 40px;
 }
 .wf_signupForm button:hover{
     cursor: pointer;
@@ -86,15 +99,19 @@ h2, h3{
     padding-top: 2%;
 }
 .wf_workWithUs .wf_workWithUsButtons{
-    display: inline-flex;
-    padding: 1px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
 }
 .wf_workWithUs .wf_buttonOutter{
     border: 2px solid #0bd6b7;
-    padding: 8px; 
-    width: 165px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 8px;
+}
+.wf_workWithUs #wf_workWithUs_buttonOne{
+    right: 5px;
+}
+.wf_workWithUs #wf_workWithUs_buttonTwo{
+    left: 5px;
 }
 .wf_workWithUs a{
     background-color: transparent;
