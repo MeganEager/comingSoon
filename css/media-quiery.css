@@ -1,6 +1,15 @@
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
-
+    /*work with us*/
+    .wf_workWithUs .wf_workWithUsButtons{
+        width: 100%;
+    }
+    .wf_workWithUs #wf_workWithUs_buttonOne{
+        right: 0px;
+    }
+    .wf_workWithUs #wf_workWithUs_buttonTwo{
+        left: 0px;
+    }
 }
 /* For tablets: */
 @media only screen and (min-width: 600px) {
