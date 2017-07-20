@@ -9,7 +9,7 @@ h1{
     font-weight: 200;
 }
 h2, h3{
-     font-weight: 300;
+     font-weight: 200;
 }
 /*background*/
 .wf_imgContainer{
@@ -21,9 +21,9 @@ h2, h3{
     height: 100%;
 }
 .wf_informationContainer{
-    background-color: rgba(53, 53, 53, 0.6);
+    background-color: rgba(53, 53, 53, 0.8);
     padding: 0;
-    display: table;
+    display: flex;
     height: 100%;
     width: 100%;
     min-height: 100%;
@@ -31,17 +31,19 @@ h2, h3{
     top: 0;
     margin: 0 auto;
     z-index: 11;
+    align-items: center;
 }
 .wf_innerInformationContainer{
-    position: relative;
     margin: 0 auto;
+    width: 100%;
+    position: relative;
+    top: -15px;
 }
 
 /*logo*/
 .wf_logoContainer{
     width: 100%;
     text-align: center;
-    margin-top: 5%;
 }
 .wf_logoContainer #wf_logo{
     width: 170px;
@@ -56,12 +58,13 @@ h2, h3{
     padding-top: 2%;
     padding-bottom: 2%;
 }
-.wf_tagline h1{
+.wf_tagline h2{
     margin: 0;
+    font-weight: 200;
 }
 /*form*/
 .wf_signupForm{
-    width: 45%;
+    width: 30%;
     margin: 0 auto;
     text-align: center;
 }
@@ -96,7 +99,7 @@ h2, h3{
     text-align: center;
     margin: 0 auto;
     width: 70%;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 .wf_workWithUs .wf_workWithUsButtons{
     text-align: center;
